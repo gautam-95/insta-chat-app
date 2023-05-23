@@ -22,7 +22,7 @@ import "./SingleChat.css";
 import { useMyToast } from "../../hooks/useMyToast.hook";
 import { useHeaders } from "../../hooks/useHeaders.hook";
 
-const ENDPOINT = "http://localhost:5000";
+const ENDPOINT = "https://insta-chat-app.onrender.com";
 let socket: Socket;
 let selectedChatCompare: Chat;
 
